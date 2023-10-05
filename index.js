@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.sendFile(path.resolver(__dirname, 'Taller-coches'))
 })
 
 
